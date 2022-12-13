@@ -1,0 +1,16 @@
+var myAge = 21 //the age I wish I was again
+var earlyYears = 2 //can change that's why not const
+earlyYears *= 10.5;
+let laterYears = myAge - 2;
+laterYears *= 4;
+
+console.log(earlyYears)
+console.log(laterYears)
+
+myAgeInDogYears = earlyYears+laterYears
+
+console.log(myAgeInDogYears)
+
+let myName='OSMAN'.toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
